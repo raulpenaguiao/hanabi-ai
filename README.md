@@ -87,7 +87,7 @@ This prints the game's progression (moves, hints, discards, scores) to `game.txt
 
 * Each player count (2, 3, 4, 5) should be trained separately.
 * The game engine is fully custom—no external environments used.
-* Agents use GRUs or LSTMs to track memory of previous moves.
+* Agents use GRUs to track memory of previous moves.
 
 ---
 
