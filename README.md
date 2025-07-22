@@ -14,16 +14,27 @@ This project aims to train intelligent agents to cooperatively play the card gam
 ## 📁 Project Structure
 
 hanabi-ai/
+
 ├── agents/
+
 │   └── player\_set.py       # Defines agent logic and neural models
+
 ├── game/
+
 │   └── hanabi\_game.py      # Game engine with Hanabi rules
+
 ├── simulation/
+
 │   └── simulation\_runner.py # Simulates many games for training
+
 ├── training/
+
 │   └── train.py            # Trains models via reinforcement learning
+
 ├── play/
+
 │   └── play.py             # Runs a single trained game and logs output
+
 └── README.md
 
 
